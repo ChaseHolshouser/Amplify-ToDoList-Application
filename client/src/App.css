@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #eef2ff, #f8fafc);
+  color: #1f2937;
+}
+
+.app {
+  max-width: 650px;
+  margin: 60px auto;
+  background: white;
+  padding: 35px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.input-container {
+  display: flex;
+  gap: 10px;
+}
+
+.input-container input {
+  flex: 1;
+  padding: 12px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+}
+
+button {
+  padding: 10px 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  background: #2563eb;
+  color: white;
+  font-weight: bold;
+}
+
+button:hover {
+  background: #1e40af;
+}
+
+.filters {
+  margin: 22px 0;
+  display: flex;
+  gap: 10px;
+}
+
+.filters button {
+  background: #e5e7eb;
+  color: #111827;
+}
+
+.filters button:hover {
+  background: #cbd5e1;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  background: #f9fafb;
+}
+
+li span {
+  cursor: pointer;
+}
+
+.completed span {
+  text-decoration: line-through;
+  color: #6b7280;
+}
+
+.clear-button {
+  margin-top: 20px;
+  width: 100%;
+  background: #dc2626;
+}
+
+.clear-button:hover {
+  background: #991b1b;
+}
